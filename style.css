@@ -133,6 +133,7 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
+/* ====================================== */
 @media(max-width: 1000px) {
     .track > h1 {
         font-size: 25px;
@@ -172,6 +173,32 @@ button {
         margin-top: 55px;
     }
 }
+
+/* =========================================== */
+
+@media (max-width: 650px) {
+   .item {
+        height: 525px;
+        width: 420px;
+    }
+
+    .popular {
+        width: 110px;
+        font-size: 13px;
+        position: relative;
+        left: 155px;
+    }
+
+    .track > p {
+        font-size: 12.5px;
+    }
+
+    button {
+        height: 45px;
+        width: 270px;
+    }
+}
+/* ============================================ */
 @media(max-width: 414px) {
     .track > h1 {
         font-size: 19px;
