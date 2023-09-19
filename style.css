@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    /* background-color: #eff2f9; */
+    background-color: #010409;
+    color: #e6edf3;
+
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-wrapper {
+    display: grid;
+    /* border: 2px solid rgb(255, 6, 6); */
+    grid-template: 100px 80px auto / 100%;
+}
+
+.track > h1, .track > p, .popular, .price, .months {
+    text-align: center;
+}
+
+.months ~ p {
+    padding-left: 38px;
+    padding-bottom: 6px;
+}
+
+.inner-flex {
+    display: flex;
+    gap: 20px;
+}
+.item {
+    height: 525px;
+    width: 300px;
+    /* background-color: #fff; */
+    background-color: #6e768166;
+    border-radius: 5px;
+}
+
+.track > h1 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.track > p {
+    color: #7d8590;
+    /* color: #646464b2; */
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 27px;
+    margin: 20px 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.tag {
+    margin-top: 42px;
+}
+
+.popular {
+    font-size: 11.5px;
+    padding: 3px; 
+    margin-top: 0;
+    width: 100px;
+    border-radius: 0 0 3px 3px;
+    color:#339d5d;
+    background-color: rgba(34, 139, 34, 0.103);
+    position: relative;
+    left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .months {
+    color: #7d8590;
+    /* color: #646464b2; */
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+
+button {
+    height: 45px;
+    width: 230px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn {
+    margin-top: 65px;
+    color: #fff;
+    background-color: #2196f3;
+}
+.btn-1 {
+    color: #fff;
+    margin-top: 17px;
+    background-color: #339d5d;
+}
+
+.icon {
+    color: #339d5d;
+    position: relative;
+    right: 10px;
+}
+
+.inner-flex > * {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ .item > p {
+    font-size: 13px;
+}
+
+.icon-2 {
+    font-size: 14px;
+    position: relative;
+    top: -9px;
+    right: 4px;
+}
+
+.bolden {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(max-width: 1000px) {
+    .track > h1 {
+        font-size: 25px;
+    }
+    .track > p {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 35px;
+    }
+
+    .popular {
+        width: 110px;
+        font-size: 13px;
+        position: relative;
+        left: 250px;
+    }
+
+    .inner-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    } 
+    
+    .item {
+        height: 525px;
+        width: 600px;
+    }
+
+    button {
+        height: 45px;
+        width: 300px;
+    }
+    .btn {
+        margin-top: 55px;
+    }
+}
+@media(max-width: 414px) {
+    .track > h1 {
+        font-size: 20px;
+    }
+    .track > p {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 23px;
+    }
+    .months ~ p {
+        font-size: 12px;
+    }
+
+    .popular {
+        width: 90px;
+        font-size: 11px;
+        position: relative;
+        left: 140px;
+    }
+
+   .item {
+        height: 500px;
+        width: 370px;
+    } 
+
+}
