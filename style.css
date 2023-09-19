@@ -7,7 +7,6 @@
 }
 
 body {
-    /* background-color: #eff2f9; */
     background-color: #010409;
     color: #e6edf3;
 
@@ -20,7 +19,6 @@ body {
 }
 .grid-wrapper {
     display: grid;
-    /* border: 2px solid rgb(255, 6, 6); */
     grid-template: 100px 80px auto / 100%;
 }
 
@@ -40,7 +38,6 @@ body {
 .item {
     height: 525px;
     width: 300px;
-    /* background-color: #fff; */
     background-color: #6e768166;
     border-radius: 5px;
 }
@@ -51,7 +48,6 @@ body {
 }
 .track > p {
     color: #7d8590;
-    /* color: #646464b2; */
     font-size: 16px;
     font-weight: 600;
 }
@@ -80,7 +76,6 @@ body {
 
  .months {
     color: #7d8590;
-    /* color: #646464b2; */
     font-size: 10px;
     font-weight: 700;
     padding-bottom: 15px;
@@ -132,6 +127,7 @@ button {
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
+
 
 /* ====================================== */
 @media(max-width: 1000px) {
