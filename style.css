@@ -174,29 +174,34 @@ button {
 }
 @media(max-width: 414px) {
     .track > h1 {
-        font-size: 20px;
+        font-size: 19px;
     }
     .track > p {
-        font-size: 12px;
+        font-size: 10.5px;
     }
 
     .price {
         font-size: 23px;
     }
     .months ~ p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .popular {
         width: 90px;
         font-size: 11px;
         position: relative;
-        left: 140px;
+        left: 120px;
     }
 
    .item {
-        height: 500px;
-        width: 370px;
+        height: 480px;
+        width: 330px;
     } 
+
+    button {
+        height: 45px;
+        width: 260px;
+    }
 
 }
